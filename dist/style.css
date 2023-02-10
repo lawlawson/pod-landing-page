@@ -1,0 +1,12 @@
+body {
+  background: url("../assets/mobile/image-host.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}/*# sourceMappingURL=style.css.map */
