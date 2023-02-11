@@ -11,16 +11,16 @@
   --clr-light-gray: hsl(225,40%,83%);
 }
 
-/* .container {
-
-} */
-
-
 body {
   background: url('../assets/mobile/image-host.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Transparency of dark background to be set overlaying the background image */
@@ -39,4 +39,8 @@ h1 {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   color: var(--clr-white);
+}
+
+.providers {
+  display: flex;
 }
