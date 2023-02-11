@@ -1,0 +1,42 @@
+:root {
+  --ff-primary: 'Chivo', sans-serif;
+  --fs-title: 2.25rem;
+  --fs-body: 1.125rem;
+
+  --clr-green: hsl(157,74%,62%);
+  --clr-dark-gray: hsl(225,26%,23%);
+  --clr-black: hsl(224,35%,11%);
+  --clr-white: hsl(0,0%,100%);
+  --clr-gray: hsl(225,21%,45%);
+  --clr-light-gray: hsl(225,40%,83%);
+}
+
+/* .container {
+
+} */
+
+
+body {
+  background: url('../assets/mobile/image-host.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Transparency of dark background to be set overlaying the background image */
+
+h1 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-title);
+    color: var(--clr-white);
+}
+
+.highlight {
+  color: var(--clr-green);
+}
+
+.blurb {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  color: var(--clr-white);
+}
