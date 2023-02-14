@@ -1,7 +1,7 @@
 :root {
   --ff-primary: 'Chivo', sans-serif;
-  --fs-title: 2.25rem;
-  --fs-body: 1.125rem;
+  --fs-title: 1.875rem;
+  --fs-body: 1rem;
 
   --clr-green: hsl(157,74%,62%);
   --clr-dark-gray: hsl(225,26%,23%);
@@ -16,19 +16,28 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .container {
   margin: 0 auto;
   text-align: center;
+  /* margin: 10px;  */
 }
 
 /* Transparency of dark background to be set overlaying the background image */
+
+.logo {
+  padding: 70px;
+  margin: 0 auto;
+}
 
 h1 {
     font-family: var(--ff-primary);
     font-size: var(--fs-title);
     color: var(--clr-white);
+    padding: 20px 10px;
+    text-transform: uppercase;
 }
 
 .highlight {
@@ -39,8 +48,40 @@ h1 {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   color: var(--clr-white);
+  padding: 30px 10px;
+  color: var(--clr-light-gray);
 }
 
 .providers {
   display: flex;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.providers li {
+  margin: 0 10px;
+}
+
+.email_address {
+  padding: 10px 20px;
+  background-color: var(--clr-dark-gray);
+  color: var(--clr-light-gray);
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  margin: 10px 0;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: var(--clr-green);
+  color: var(--clr-black);
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+
 }
