@@ -75,13 +75,17 @@ h1 {
 
 .submit {
   padding: 10px 20px;
-  margin-top: 15px;
+  margin-top: 20px;
   background-color: var(--clr-green);
   color: var(--clr-black);
   border-radius: 20px;
   border: none;
   width: 100%;
   font-size: var(--fs-body);
+}
+
+.dots {
+  display: none;
 }
 
 /* Tablet view */
@@ -104,11 +108,41 @@ h1 {
 
 .blurb {
   text-align: left;
+  width: 56%;
 }
 
 .box {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.cta {
+  width: 100%;
+  display: flex;
+}
+
+.email_address {
+  width: 70%;
+  position: relative;
+}
+
+.submit {
+  width: 30%;
+  position: absolute;
+  margin-left: 284px;
+}
+
+.providers {
+  margin-top: 3rem;
+}
+
+.providers li {
+  margin-right: 50px;
+}
+
+.dots {  
+  display: flex;
+  margin-top: 4rem;
 }
 
 }
