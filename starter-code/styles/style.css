@@ -153,13 +153,23 @@ h1 {
 .email_address {
   width: 55%;
   position: relative;
+  resize: none;
 }
 
 .submit {
-  width: 25%;
+  width: 17%;
+  height: 2%;
   position: absolute;
+  margin-top: 24px;
   margin-left: 213px;
+  padding: 18px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 3px;
+  font-weight: bold;
+  position: fixed;
 }
+
 
 .providers {
   padding: 30px 0px;
@@ -174,4 +184,37 @@ h1 {
   margin-top: 86px;
 }
 
+}
+
+/* Laptop view */
+
+@media (min-width: 64em) { 
+
+  body {
+    background-color: var(--clr-black);
+    background-image: url('../assets/mobile/image-host.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 470px 629px;
+    overflow-y: hidden;
+  }
+
+  .logo-container {
+    margin-bottom: 12.7rem;
+  }
+
+  .email_address {
+    width: 68%;
+  }
+
+  .info-box {
+    width: 60%;
+  }
+
+  .dots {
+    float: right;
+    margin-top: 0;
+    position: relative;
+    top: -60px;
+  }
 }
