@@ -94,7 +94,7 @@ h1 {
 
 .logo-container {
   margin-top: 2.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 7.7rem;
 }
   
 .logo {
@@ -108,7 +108,7 @@ body {
   background-image: url('../assets/mobile/image-host.jpg');
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 510px 725px;
+  background-size: 470px 629px;
   overflow-y: hidden;
 }
 
@@ -119,7 +119,7 @@ body {
 
 .info-box {
   background-color: var(--clr-black);
-  width: 75%;
+  width: 90%;
   padding: 10px 0;
 }
 
@@ -130,8 +130,13 @@ h1 {
 
 .blurb {
   text-align: left;
-  width: 56%;
+  width: 70%;
   font-size: 0.875rem;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .box {
@@ -142,6 +147,7 @@ h1 {
 .cta {
   width: 100%;
   display: flex;
+  padding-bottom: 10px;
 }
 
 .email_address {
@@ -155,9 +161,9 @@ h1 {
   margin-left: 213px;
 }
 
-/* .providers {
-  margin-top: 0.1rem;
-} */
+.providers {
+  padding: 30px 0px;
+}
 
 .providers li {
   margin-right: 20px;
@@ -165,7 +171,7 @@ h1 {
 
 .dots {  
   display: flex;
-  margin-top: 1rem;
+  margin-top: 86px;
 }
 
 }
