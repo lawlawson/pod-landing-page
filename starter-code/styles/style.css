@@ -91,8 +91,7 @@ h1 {
 span.error_message {
   display: none;
   position: relative;
-  top: -13px;
-  left: 21px;
+  top: 10px;
   color: red;
 }
 
@@ -110,8 +109,16 @@ span.showError {
 }
   
 .logo {
-  margin: 0;
   padding: 0;
+  margin-left: 35px;
+}
+
+span.error_message {
+  top: 100;
+  position: absolute;
+  margin-top: 34rem;
+  margin-left: 2rem;
+  padding: 5px;
 }
 
 body {
@@ -212,14 +219,31 @@ h1 {
   }
 
   .logo-container {
-    margin-bottom: 12.7rem;
+    position: absolute;
+    margin-top: 7rem;
   }
 
   .email_address {
     width: 68%;
   }
 
+  .submit {
+    width: 17%;
+    height: 2%;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 240px;
+    padding: 18px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3px;
+    font-weight: bold;
+    position: fixed;
+  }
+
   .info-box {
+    position: absolute;
+    margin-top: 19rem;
     width: 60%;
   }
 
