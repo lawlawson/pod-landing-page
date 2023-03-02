@@ -88,6 +88,18 @@ h1 {
   display: none;
 }
 
+span.error_message {
+  display: none;
+  position: relative;
+  top: -13px;
+  left: 21px;
+  color: red;
+}
+
+span.showError {
+  display: block;
+}
+
 /* Tablet view */
 
 @media (min-width: 48em) {

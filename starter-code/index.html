@@ -58,10 +58,14 @@
               <div>
                 <form name="form1" action="">
                   <div class="cta">
-                    <label for="email_address"></label>
+                    <label for="email_address">
+                      <span class="error_message"
+                        >Oops! Please check your email</span
+                      >
+                    </label>
                     <input
                       class="email_address"
-                      type="text"
+                      type="email"
                       id="email"
                       name="email"
                       placeholder="Email address"
@@ -71,7 +75,6 @@
                       type="submit"
                       value="Request Access"
                       text
-                      onClick="validateEmail(document.form1.email)"
                     />
                   </div>
                 </form>
