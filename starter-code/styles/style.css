@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  max-width: 70rem;
-  padding: 0 1rem;
+  max-width: 70em;
+  padding: 0 1em;
   margin: 0 auto;
 
 }
@@ -31,13 +31,13 @@ body {
   margin: auto;
   display: flex;
   max-width: 100%;
-  padding: 50px
+  padding: 3.125rem;
 }
 
 h1 {
     font-size: var(--fs-title);
     color: var(--clr-white);
-    padding: 20px 10px;
+    padding: 1.25em 0.625em;
     text-transform: uppercase;
 }
 
@@ -200,7 +200,7 @@ h1 {
 
 .dots-container {  
   display: flex;
-  margin-top: 86px;
+  margin-top: 3em;
 }
 
 }
@@ -261,6 +261,12 @@ h1 {
 
   body {
     background-size: 62%;
+  }
+  
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .dots-container {
