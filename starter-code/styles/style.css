@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  max-width: 70em;
-  padding: 0 1em;
+  max-width: 1275px;
+  width: 90%;
   margin: 0 auto;
 
 }
@@ -48,18 +48,18 @@ h1 {
 .blurb {
   font-size: var(--fs-body);
   color: var(--clr-white);
-  padding: 30px 10px;
+  padding: 1.8756em 0.625em;
   color: var(--clr-light-gray);
 }
 
 .providers {
   display: flex;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 1.8756em 1.25em;
 }
 
 .providers li {
-  margin: 0 10px;
+  margin: 0 1.25em;
 }
 
 .email_address {
