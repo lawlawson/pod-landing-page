@@ -21,10 +21,10 @@ body {
 }
 
 .container {
-  max-width: 1275px;
-  width: 90%;
+  max-width: 1230px;
   margin: 0 auto;
-
+  padding: 0 20px;
+  position: relative;
 }
 
 .logo {
@@ -180,7 +180,7 @@ h1 {
   height: 2%;
   position: absolute;
   margin-top: 24px;
-  margin-left: 213px;
+  margin-left: 214px;
   padding: 18px;
   font-size: 12px;
   text-align: center;
@@ -220,7 +220,7 @@ h1 {
 
   .logo-container {
     position: absolute;
-    margin-top: 7rem;
+    margin-top: 9rem;
   }
 
   .email_address {
@@ -232,7 +232,7 @@ h1 {
     height: 2%;
     position: absolute;
     margin-top: 24px;
-    margin-left: 240px;
+    margin-left: 241px;
     padding: 18px;
     font-size: 12px;
     text-align: center;
@@ -243,42 +243,50 @@ h1 {
 
   .info-box {
     position: absolute;
-    margin-top: 19rem;
+    margin-top: 17rem;
     width: 60%;
   }
 
   .dots-container {
     float: right;
-    margin-top: 78%;
-    position: relative;
-    top: -60px;
+    margin-top: 67%;
   }
 }
 
 /* Largest screen sizes */
 
-@media (min-width: 90em) {
+@media (min-width: 1220px) {
 
-  body {
-    background-size: 62%;
+  .container {
+    margin: auto 165px;
+  }
+
+   body {
+    background-position: right 100px;
+    background-size: 44%;
+  } 
+
+  main {
+    width: 60%;
   }
   
-  .cta {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+  .dots-container {
+    margin-top: 60%;
+    margin-left: 76%;
+    position: absolute;
   }
 
-  .dots-container {
-    margin-top: 55%;
-    position: absolute;
-    margin-left: 70%;
+  .logo-container {
+    margin-left: 35%;
+    margin-top: 6rem;
   }
 
   .info-box {
-    position: absolute;
-    margin-top: 26%;
-    margin-left: -6%;
-    width: 60%;
+    margin-left: 36%;
+    margin-top: 15rem;
+  }
+
+  .submit {
+    margin-left: 173px;
   }
 }
