@@ -277,16 +277,40 @@ h1 {
   }
 
   .logo-container {
-    margin-left: 35%;
     margin-top: 6rem;
   }
 
   .info-box {
-    margin-left: 36%;
+
     margin-top: 15rem;
   }
 
   .submit {
     margin-left: 173px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  body {
+    background-position: right 100px;
+    background-size: 50%;
+  } 
+
+  .logo-container {
+    margin-top: 6rem;
+  }
+
+  .info-box {
+    margin-top: 15rem;
+  }
+
+  .submit {
+    width: 10%;
+    margin-left: 305px;
+  }
+
+  .dots-container {
+    display: none;
   }
 }
